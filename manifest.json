@@ -1,0 +1,15 @@
+{
+  "name": "TabsSync",
+  "manifest_version": 2,
+  "version" : "1.0",
+  "description": "Tabs Synchronizer",
+  "permissions": ["tabs", "http://*/*", "https://*/*"],
+  "browser_action": {
+    "default_icon" : "png2.png"
+    //"default_popup" : "popup.html"
+  },
+  "background": {
+    "scripts": ["background.js","jquery-1.7.2.js"],
+    "persistent": true
+  }
+}
